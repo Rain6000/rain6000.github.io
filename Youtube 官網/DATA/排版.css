@@ -1,0 +1,48 @@
+@Charset "UTF-8";
+div#text, footer{
+    text-align: center;
+    margin-top:6px;
+    padding-top:6px;
+}
+big{
+    font-size:36px;
+}
+normal-text{
+    font-size:36px;
+}
+sh{
+    font-size:10px;
+    text-decoration: line-through;
+}
+div#main{
+    text-align:center;
+}
+span#BigJoke{
+    font-size:36px;
+    line-height:36px;
+}
+a:hover, a:active, a:visited, a:link{
+    color:white;
+}
+a{
+    background-image: url('https://lab.twucm.com/upload/2021_04_282/20210428130708b8d56bWkD1.png');
+}
+body{
+    background-color:rgb(0, 255, 208);
+}
+.img{
+    display:flex;
+} 
+.img img{
+    width:20%;
+    height:20%;
+}
+#VideoTitle{
+    font-size:54px;
+}
+@media only screen and (max-width:1280px){
+    span#BigJoke{
+	font-size:36px;
+	line-height:36px;
+    }
+}
